@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-container{
+    background-image: url(slider-bg-1.jpg);
+    background-size: cover;
+}
+
+.td{
+    color: gray;
+}
+
+.project-number{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 60px;
+    color: rgb(57, 57, 110);
+}
+.horizontal{
+    width: 60px;
+    border-width: 6px;
+    color: rgb(255, 15, 15);
+}
+
+.select{
+    height: 50px;
+}
+
+
+@media(min-width:992px){
+   .card-row{
+    position: relative;
+    top: -50px;
+    border: none;
+   }
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media(max-width:992px){
+  .top-container{
+    background-image:none;
+  }
+  h1{
+    font-size: 50px;
+  }
+ }
+
+
+ @media(max-width:380px){
+    .book-appointment{
+        font-size: 30px;
+    }
+ }
